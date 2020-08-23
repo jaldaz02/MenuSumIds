@@ -1,6 +1,6 @@
 # What is this?
 
-The following is a RESTful api in C# .Net Core 3.1, XUnit and FluentAssertions for unit testing.
+The following is a RESTful API in C# .Net Core 3.1, XUnit and FluentAssertions for unit testing.
 This API takes an input file in JSON format.
 
 ## Overview
@@ -35,4 +35,4 @@ this will show the results of the unit test and show result.
 	- https://localhost:5001/MenuOperation/ReadMenuFile
 	- Header: Key = Content-Type; VALUE = multipart/form-data
 	- Body: form-data => Key = inputFile; VALUE = `YourInputFIle.txt`
-- Send the POST Request and resutl will be in Response Body.
+- Send the POST Request and result will be in Response Body.
